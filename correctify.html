@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Correctify</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="project-detail">
+        <div class="container">
+            <h2>Correctify</h2>
+            <img src="Correctify.jpg" alt="Correctify">
+            <h1>Correctify: Empowering Communication Through Advanced Grammar Correction</h1>
+
+            <p> Correctify is a cutting-edge project designed to revolutionize how individuals and businesses address grammatical inaccuracies in written content. Built on the MERN (MongoDB, Express, React, Node.js) stack and leveraging the powerful capabilities of the Gemini AI API, Correctify stands as a robust solution for identifying and rectifying grammar errors, enhancing the clarity and professionalism of textual communication. This document provides an in-depth exploration of Correctify, its features, technology stack, use cases, challenges, and future potential.
+                
+                
+                
+              <h2> Overview of Correctify</h2> 
+                
+                Correctify is a web-based application that serves as a grammar correction tool for a variety of audiences, including students, professionals, writers, and businesses. It simplifies the process of refining textual content by automatically detecting grammatical issues, sentence structure flaws, and stylistic inconsistencies. Whether you are drafting an email, creating a report, or writing a novel, Correctify ensures your content is polished and error-free.
+                
+                The platform integrates seamlessly with the Gemini AI API, which utilizes advanced natural language processing (NLP) algorithms. By combining the latest AI advancements with a user-friendly interface, Correctify provides users with real-time feedback and suggestions, promoting better writing habits.
+                
+                
+            </p>  
+              <h2> Features of Correctify</h2>
+                
+               <p> 1. Grammar and Syntax Correction:
+                   - Detects grammatical errors such as subject-verb disagreements, punctuation misuse, and sentence fragments.
+                   - Suggests corrections in real-time with an easy-to-understand explanation for each error.
+                
+                2. Style and Tone Suggestions:
+                   - Evaluates the tone of the text and provides suggestions to make it more formal, professional, or conversational based on user preferences.
+                   - Offers alternative phrasing to enhance readability and engagement.
+                
+                3. Real-Time Text Editor:
+                   - Equipped with a responsive, interactive text editor that highlights issues dynamically as the user types.
+                   - Allows users to accept or reject suggestions with a single click.
+                
+                4. Multi-Language Support:
+                   - Extends its capabilities beyond English, offering grammar correction in multiple languages, thus catering to a global audience.
+                
+                5. Document Upload and Analysis:
+                   - Enables users to upload documents in formats like PDF, Word, or plain text for batch processing.
+                   - Generates a detailed report outlining all identified issues and suggested corrections.
+                
+                6. Custom User Profiles:
+                   - Stores user preferences for tone, style, and other writing goals.
+                   - Tracks user progress over time to show improvement in writing skills.
+                
+                7. API Integration:
+                   - Provides API support for businesses to integrate Correctify’s grammar correction features into their own platforms, such as email clients, content management systems, or e-learning tools.
+                
+                
+            </p>  
+               <h2> Technology Stack</h2>
+                
+                <p>  Correctify is built on the MERN stack, a combination of four key technologies:
+                
+                1. MongoDB:
+                   - A NoSQL database used to store user data, preferences, and logs of corrected documents.
+                   - Efficiently handles large datasets, ensuring scalability for future expansion.
+                
+                2. Express.js:
+                   - Serves as the backend framework, enabling smooth API routing and server-side logic.
+                   - Manages requests between the front end and the database.
+                
+                3. React.js:
+                   - Powers the dynamic and interactive front end of Correctify.
+                   - Facilitates a seamless user experience with real-time grammar checks and updates.
+                
+                4. Node.js:
+                   - Acts as the runtime environment for the server, ensuring fast and scalable performance.
+                
+                Additionally, the Gemini AI API is at the core of Correctify’s grammar-checking capabilities. This API uses state-of-the-art NLP models trained on vast datasets to accurately identify and suggest corrections for grammatical errors.
+                
+                
+            </p>  
+              <h2>  How Correctify Works</h2>
+                
+                <p>  1. User Input:
+                   - The user accesses the platform via a web browser and inputs text directly or uploads a document.
+                
+                2. Processing:
+                   - The text is sent to the server, where it is processed by the Gemini AI API. 
+                   - NLP algorithms analyze the content, identifying grammatical errors, tone inconsistencies, and stylistic issues.
+                
+                3. Suggestions and Feedback:
+                   - Correctify provides real-time suggestions, highlighting errors and offering fixes.
+                   - Users can click on suggestions to see detailed explanations and choose to implement or dismiss them.
+                
+                4. Output:
+                   - The final polished text can be downloaded, copied, or directly shared via the platform.
+                
+                
+            </p>  
+               <h2> Use Cases</h2>
+                
+                <p>   1. Academic Writing:
+                   - Helps students and researchers ensure their essays, theses, and papers are grammatically sound and professional.
+                
+                2. Professional Communication:
+                   - Assists professionals in drafting emails, reports, and presentations with impeccable grammar and clarity.
+                
+                3. Creative Writing:
+                   - Supports authors and content creators by refining their work without compromising their unique voice or style.
+                
+                4. Business Applications:
+                   - Offers API integration for businesses, enabling them to incorporate grammar correction into their workflows, such as customer support systems or marketing platforms.
+                
+                5. Language Learning:
+                   - Acts as a learning tool for individuals improving their language skills by providing explanations for corrections.
+                
+                </p>    
+                
+                <h2> Challenges Faced During Development</h2>
+                
+                 <p> 1. Integration of Gemini AI API:
+                   - Ensuring seamless communication between the front end and the AI API required rigorous testing and optimization.
+                
+                2. Real-Time Performance:
+                   - Delivering instant feedback without compromising on accuracy was a significant technical challenge. This was addressed by optimizing the backend logic and caching mechanisms.
+                
+                3. Cross-Browser Compatibility:
+                   - Ensuring the platform performs consistently across different browsers and devices demanded extensive testing and debugging.
+                
+                4. Scalability:
+                   - Designing a system capable of handling thousands of simultaneous users necessitated robust server infrastructure and database management.
+                
+                
+            </p>    
+              <h2> Future Scope</h2>
+                
+               <p>  1. Enhanced AI Models:
+                   - Incorporate more advanced NLP models as they become available, improving the accuracy and depth of grammar corrections.
+                
+                2. Voice Input and Output:
+                   - Introduce functionality for users to dictate text and receive corrections, making the platform more accessible.
+                
+                3. Offline Mode:
+                   - Develop an offline version of Correctify, enabling users to work without an internet connection.
+                
+                4. Mobile Application:
+                   - Expand to Android and iOS platforms, offering users a seamless experience on the go.
+                
+                5. Advanced Analytics:
+                   - Provide users with detailed analytics on their writing patterns, highlighting common errors and areas for improvement.
+                
+                6. Collaborative Writing Tools:
+                   - Enable real-time collaboration, allowing teams to work together on documents with Correctify’s assistance.
+                
+                7. AI-Assisted Writing:
+                   - Integrate AI features for content generation, such as auto-completing sentences or suggesting ideas based on context.
+                
+                </p>   
+                
+               <h2> Impact of Correctify</h2>
+                
+                <p> Correctify addresses a critical need for effective communication in an increasingly digital world. By providing a tool that enhances writing accuracy and style, it empowers users to convey their ideas clearly and confidently. This has significant implications for education, professional growth, and business efficiency.
+                
+                For students, Correctify acts as a mentor, guiding them toward better writing habits. Professionals benefit from reduced communication errors, enhancing their credibility and productivity. For businesses, the integration of Correctify’s API elevates their customer interactions and brand image.
+                
+                
+            </p>   
+              <h2> Conclusion</h2>
+                
+               <p>   Correctify exemplifies the potential of technology to improve everyday tasks like writing. By combining the versatility of the MERN stack with the intelligence of the Gemini AI API, it delivers an unparalleled grammar correction experience. As the project evolves, it promises to redefine how we approach written communication, fostering greater confidence and competence among its users.
+                
+                With its focus on accuracy, accessibility, and innovation, Correctify is more than just a grammar correction tool—it’s a platform that bridges the gap between ideas and effective expression.
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Ayan Mitra. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
